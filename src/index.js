@@ -6,6 +6,7 @@ import Projet from './pages/Projet/Projet'
 import Contact from './pages/Contact/Contact'
 import reportWebVitals from './reportWebVitals';
 
+
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
       <Routes>

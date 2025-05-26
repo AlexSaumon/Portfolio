@@ -139,7 +139,7 @@
   justify-self: center;
   display: flex;
   max-width: 1440px;
-  width: 100%;
+  width: 60%;
   height: 67px;
   background-color: $grey;
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
@@ -151,22 +151,50 @@
   justify-self: center;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   max-width: 1440px;
-  width: 90%;
+  width: 50%;
   gap: 5%;
 }
 
-.skill-icon {
+.skill-icon-button {
   background-color: #000000;
   color: white;
   display: flex;
   height: 200px;
   width: 200px;
+  min-width: 200px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   justify-content: center;
   align-items: center;
+  font-size: 16px;
 }
+
+.skill-icon {
+  height: 60%;
+  width: 60%;
+  color: $secondary-color;
+}
+
+.courses {
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1440px;
+  background-color: $grey;
+  height: 200px;
+  width:50%;
+  clip-path: polygon(10% 0, 87% 0, 100% 30%, 100% 70%, 90% 100%, 9% 100%, 0% 70%, 0% 30%);
+  gap: 5%;
+}
+
+.courses-description {
+  height: 160px;
+  padding: 20px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

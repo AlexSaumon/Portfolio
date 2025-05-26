@@ -3,6 +3,7 @@ import Header from '../../Components/Header'
 import Form from '../../Components/Form'
 import Footer from '../../Components/Footer'
 import Banner from '../../Components/Banner'
+import Skill from '../../Components/Skill-icon'
 import falconImg from '../../picture/falcon.png';
 import test1 from '../../picture/ffxiv_11052025_225429_674.png';
 import test2 from '../../picture/ffxiv_18052025_211712_588.png';
@@ -41,19 +42,7 @@ function Home() {
           </div>
           <div className='Competences part-body'>
             <h2 className='Part-title'>Compétences</h2>
-            <h3 className='sub-part-title'>Front End</h3>
-            <div className='skills'>
-              <p className='skill-icon'>Chaton </p>
-              <p className='skill-icon'>Chiot </p>
-              <p className='skill-icon'>hamster </p>
-            </div>
-            <h3 className='sub-part-title'>Back End</h3>
-            <div className='skills'>
-              <p className='skill-icon'>Chaton </p>
-              <p className='skill-icon'>Chiot </p>
-              <p className='skill-icon'>hamster </p>
-            </div>
-            <h3 className='sub-part-title'>Formation</h3>
+            <Skill />
           </div>
         <Form />
     </div>
