@@ -3,8 +3,8 @@ import '../Styles/Header.scss';
 
 function Header() {
     return (
-      <header>
-          <h1>Alexandre Salmon</h1>
+      <header className='Header'>
+          <div className='Title'><h1>Alexandre Salmon</h1></div>
           <nav>
             <NavLink to="/Contact" >Contact</NavLink>
             <NavLink to="/Apropos" >Projet</NavLink>

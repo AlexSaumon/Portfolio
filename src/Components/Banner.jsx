@@ -1,17 +1,18 @@
 
-import '../Styles/Header.scss';
+import '../Styles/Banner.scss';
+import falconImg from '../picture/falcon.png';
 
 function Banner() {
     return (
-      <header className='Profile'>
-        <div>
-          <h1 className='Profile-pic'>Img place holder</h1>
+      <header className='Banner'>
+        <div className='Profile'>
+          <img src={falconImg} className="Profile-pic" alt="Falcon" />
         </div>
-        <div className='Description'>
-            <h3 className='Job-name'>Développeuse webFrontend & Backend </h3>
-            <div className='Button'>
-                <a href='/' className='Job-name'>Git Hub </a>
-                <a href='/' className='Job-name'>CV </a>
+        <div className='Banner-text'>
+            <h2 className='Job-name'>Développeuse web <br />Frontend & Backend </h2>
+            <div className='Button-container'>
+                <a href='/' className='Button'>Git Hub </a>
+                <a href='/' className='Button'>CV </a>
             </div>
         </div>
 
