@@ -1,4 +1,4 @@
-import '../App.scss';
+import '../Styles/Skill-icon.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons';
 import { faCss } from '@fortawesome/free-brands-svg-icons';
@@ -44,7 +44,7 @@ function Skill() {
                     <h3 className='sub-part-title'>Formation</h3>
                     <div className='courses'>
                         <div className='skill-icon-button' ><img src={OCImg} className='skill-icon' alt="Falcon" /></div>
-                        <p className='courses-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras </p>
+                        <p className='courses-description'>2024-2025 Formation Dévellopeur-Dévellopeuse Web à Openclassrom </p>
                     </div>    
       </div>
     );
