@@ -1,6 +1,7 @@
 
 import '../Styles/Banner.scss';
 import falconImg from '../picture/falcon.png';
+import salmonCV from '../CV/SALMON-alexandre-CV.pdf';
 
 function Banner() {
     return (
@@ -12,7 +13,7 @@ function Banner() {
             <h2 className='Job-name'>Développeuse web <br />Frontend & Backend </h2>
             <div className='Button-container'>
                 <a href='/' className='Button'>Git Hub </a>
-                <a href='/' className='Button'>CV </a>
+                <a href={salmonCV} target="_blank" rel="noopener noreferrer"  className='Button'>CV </a>
             </div>
         </div>
 
