@@ -24,7 +24,7 @@ function Home() {
             </div>
           </div>
           <div className='Projets-recent part-body'>
-            <h2 className='Part-title'>Projets récents</h2>
+            <section id='projet'><h2  className='Part-title'>Projets récents</h2></section>
             <div className='projet'>
               <img src={test1} className="projet-pic" alt="Falcon" />
               <p className='projet-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras </p>
@@ -35,7 +35,7 @@ function Home() {
             </div>
           </div>
           <div className='Service part-body'>
-            <h2 className='Part-title'>Services</h2>
+            <section id='service'><h2 className='Part-title'>Services</h2></section>
             <div className='service-container'>
               <div className='service-description'>
                 <div className='service-title'>
@@ -67,7 +67,7 @@ function Home() {
             </div>
           </div>
           <div className='Competences part-body'>
-            <h2 className='Part-title'>Compétences</h2>
+            <section id='competence'><h2 className='Part-title'>Compétences</h2></section>
             <Skill />
           </div>
         <Form />

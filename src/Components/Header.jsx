@@ -1,13 +1,14 @@
-import { NavLink } from 'react-router';
 import '../Styles/Header.scss';
 
 function Header() {
     return (
-      <header className='Header' id="main-header">
+      <header className='header' id="main-header">
           <div className='Title'><h1>Alexandre Salmon</h1></div>
           <nav>
-            <NavLink to="/Contact" >Contact</NavLink>
-            <NavLink to="/Apropos" >Projet</NavLink>
+            <a href="#projet">Projets</a>
+            <a href="#service">Services</a>
+            <a href="#competence">Compétences</a>
+            <a href="#form">Contact</a>
           </nav> 
       </header>
     );

@@ -26,7 +26,7 @@ function Form() {
 
     return (
       <form ref={form} onSubmit={sendEmail}  className='Form'>
-        <h2>Me contacter</h2>
+        <section id='form'><h2>Me contacter</h2></section>
         <label>
           <p>E-mail</p>
         </label>
