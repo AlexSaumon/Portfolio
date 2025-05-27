@@ -141,7 +141,8 @@
   max-width: 1440px;
   width: 60%;
   height: 67px;
-  background-color: $grey;
+  background-color: $primary-color;
+  color: $white;
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
   align-items: center;
   justify-content: center;
@@ -164,7 +165,14 @@
   height: 200px;
   width: 200px;
   min-width: 200px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(
+  100px 0px,
+  200px 50px,
+  200px 150px,
+  100px 200px,
+  0px 150px,
+  0px 50px
+  );
   justify-content: center;
   align-items: center;
   font-size: 16px;
@@ -180,18 +188,30 @@
   justify-self: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   max-width: 1440px;
-  background-color: $grey;
   height: 200px;
   width:50%;
-  clip-path: polygon(10% 0, 87% 0, 100% 30%, 100% 70%, 90% 100%, 9% 100%, 0% 70%, 0% 30%);
-  gap: 5%;
+  background-color: $grey;
+  clip-path: polygon(
+  100px 0px,                      // top-left flat edge
+  calc(100% - 100px) 0,          // top-right slant start (mirrored)
+  100% 50px,                     // top-right slope
+  100% 150px,                    // bottom-right slope
+  calc(100% - 100px) 100%,       // bottom-right slant end
+  100px 200px,                   // bottom-left flat edge
+  0 150px,                       // bottom-left slope
+  0 50px                         // top-left slope
+);
+
+margin-bottom: 20px;
+
 }
 
 .courses-description {
   height: 160px;
   padding: 20px;
+  width: 50%;
 }
 
 

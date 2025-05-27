@@ -4,7 +4,7 @@ import falconImg from '../picture/falcon.png';
 
 function Banner() {
     return (
-      <header className='Banner'>
+      <header className='Banner' id="banner">
         <div className='Profile'>
           <img src={falconImg} className="Profile-pic" alt="Falcon" />
         </div>

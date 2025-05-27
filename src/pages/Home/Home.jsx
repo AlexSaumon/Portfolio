@@ -3,6 +3,7 @@ import Header from '../../Components/Header'
 import Form from '../../Components/Form'
 import Footer from '../../Components/Footer'
 import Banner from '../../Components/Banner'
+import Scroll from '../../Components/Scroll'
 import Skill from '../../Components/Skill-icon'
 import falconImg from '../../picture/falcon.png';
 import test1 from '../../picture/ffxiv_11052025_225429_674.png';
@@ -10,8 +11,7 @@ import test2 from '../../picture/ffxiv_18052025_211712_588.png';
 
 function Home() {
   return (
-    <><Header />
-        <Banner />
+    <><Scroll />
     <div className="App">
           <div className='Description part-body' >
             <div className='Introduction-container'>

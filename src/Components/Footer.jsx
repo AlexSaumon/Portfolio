@@ -1,16 +1,22 @@
 import { NavLink } from 'react-router';
-import '../Styles/Header.scss';
+import '../Styles/Footer.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneVolume} from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
     return (
-      <header>
+      <footer className='footer'>
           <h3>Alexandre Salmon</h3>
-          <nav>
-            <NavLink to="/Contact" >Contact</NavLink>
-            <NavLink to="/Apropos" >Projet</NavLink>
-          </nav> 
-          <p>lien RS place holder</p>
-      </header>
+          <div className='phone-mail'>
+            <FontAwesomeIcon icon={faPhoneVolume} />
+            <p>06 98 61 54 92</p>
+          </div>
+          <div className='phone-mail'>
+            <FontAwesomeIcon icon={faEnvelope} />
+            <p>salmon_alexandre@outlook.fr</p>
+          </div>
+      </footer>
     );
 }
 
