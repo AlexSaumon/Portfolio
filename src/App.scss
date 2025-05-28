@@ -139,6 +139,10 @@
     a {
       align-self: flex-end;
     }
+    .Button:hover {
+    background-color: $primary-color;
+    color: $secondary-color;
+}
 }
 
 .service-container {
