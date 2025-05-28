@@ -5,8 +5,8 @@ import Footer from '../../Components/Footer'
 import Scroll from '../../Components/Scroll'
 import Skill from '../../Components/Skill-icon'
 import falconImg from '../../picture/falcon.png';
-import test1 from '../../picture/ffxiv_11052025_225429_674.png';
-import test2 from '../../picture/ffxiv_18052025_211712_588.png';
+import kasa from '../../picture/kasa.png';
+import Mon_vieux_grimoire from '../../picture/Mon_vieux_grimoire.png';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 import { faWrench } from '@fortawesome/free-solid-svg-icons';
 import { faAccessibleIcon } from '@fortawesome/free-brands-svg-icons';
@@ -25,13 +25,28 @@ function Home() {
           </div>
           <div className='Projets-recent part-body'>
             <section id='projet'><h2  className='Part-title'>Projets récents</h2></section>
-            <div className='projet'>
-              <img src={test1} className="projet-pic" alt="Falcon" />
-              <p className='projet-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras </p>
-            </div>
-            <div className='projet'>
-              <img src={test2} className="projet-pic" alt="Falcon" />
-              <p className='projet-description'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras </p>
+            <div className='projet-body'>
+              <div className='projet'>
+                <img src={Mon_vieux_grimoire} className="projet-pic" alt="Falcon" />
+                <div className='projet-description'>
+                  <h3>Mon vieux grimoire</h3>
+                  <p>Site web de notation de livre. Les utilisateur.ices peuvent créent de nouvelles page
+                    quand ils sont connecter afin d'ajouter un nouveau livre et de mettre une note visible 
+                    par le public.
+                  </p>
+                  <a href='https://github.com/AlexSaumon' className='Button'>Git Hub </a>
+                </div>
+              </div>
+              <div className='projet'>
+                <img src={kasa} className="projet-pic" alt="Falcon" />
+                <div className='projet-description'>
+                  <h3>Kasa</h3>
+                  <p>Application web de location immobilière. Les utilisateur.ices peuvent consulter 
+                    les divers logement ouver à la location.
+                  </p>
+                  <a href='https://github.com/AlexSaumon' className='Button'>Git Hub </a>
+                </div>
+              </div>
             </div>
           </div>
           <div className='Service part-body'>

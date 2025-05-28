@@ -83,3 +83,20 @@ margin-bottom: 20px;
     font-size: 24px;
     font-weight: bold;
 }
+
+ @media all and (max-width: 1024px) {
+.skills {
+  justify-content: center;
+}
+
+.courses {
+  width: unset;
+}
+
+}
+
+@media (max-width: 769px) {
+  .courses {
+  max-width: 90%;
+}
+}
