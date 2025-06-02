@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.scss'
+import '../Styles/Projet.scss'
 import projectData from '../Data/Project.json';
 
 function Project() {
@@ -20,15 +20,17 @@ function Project() {
           />
           <div className="projet-description">
             <h3>{project.title}</h3>
-            <p >{project.description}</p>
-            <div className="tags">
+            <p dangerouslySetInnerHTML={{ __html: project.description }} />
+            <div className='projet-footer'>
+                <div className="tags">
               {project.tags.map((tag, idx) => (
                 <span className="tag" key={idx}>{tag}</span>
               ))}
             </div>
             <a href={project.github} target="_blank" rel="noopener noreferrer" className="Button">
-              Voir sur GitHub
+              GitHub
             </a>
+            </div>
           </div>
         </div>
       ))}

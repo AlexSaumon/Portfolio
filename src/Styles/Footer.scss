@@ -18,3 +18,11 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 769px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: fit-content;
+  }
+}

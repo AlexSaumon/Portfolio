@@ -2,10 +2,10 @@
 	{
 		"title": "Mon vieux grimoire",
 		"cover": "Mon_vieux_grimoire.png",
-        "description": "Site web de notation de livre. Les utilisateur.ices peuvent créent de nouvelles pagequand ils sont connecter afin d'ajouter un nouveau livre et de mettre une note visible par le public.",
+        "description": "Site web de notation de livres. Les utilisateur·ices peuvent créer de nouvelles pages lorsqu’ils·elles sont connecté·es, afin d’ajouter un livre et lui attribuer une note visible publiquement. <br>La mise en place d’un système d’authentification sécurisé et de validation des données, pour permettre une publication et une notation propres à chaque utilisateur·ice, a été l’un des principaux défis.",
 		"tags": [
-			"Batignolle",
-			"Montmartre"
+			"Node.js ",
+			"Express "
 		],
         "github": "https://github.com/AlexSaumon/P7-Dev-Web-livres",
         "date": "02/05/2025"
@@ -13,10 +13,10 @@
     {
 		"title": "Kasa",
 		"cover": "kasa.png",
-        "description": "Application web de location immobilière. Les utilisateur.ices peuvent consulter les divers logement ouver à la location.",
+        "description": "Application web de location immobilière. Les utilisateur·ices peuvent consulter les différents logements ouverts à la location. <br>L’un des défis a été la mise en place d’une architecture front-back claire, avec une gestion dynamique des données et un design responsive.",
 		"tags": [
-			"Batignolle",
-			"Montmartre"
+			"React ",
+			"SCSS "
 		],
         "github": "https://github.com/AlexSaumon/OC-Project6",
         "date": "08/04/2025"
