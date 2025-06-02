@@ -1,0 +1,17 @@
+[
+	{
+		"title": "Création d'application web",
+		"icon": "faDesktop",
+        "description": "De la conception à la mise en ligne, je réalise des sites vitrines, e-commerces, applications web, mobiles ou de bureau, entièrement adaptés à vos besoins et à vos objectifs. "
+	},
+    {
+		"title": "Accompagnement et maintenance",
+		"icon": "faWrench",
+        "description": "Je vous accompagne sur le long terme : correction de bugs, mises à jour techniques, ajout de nouvelles fonctionnalités ou optimisation des performances."
+	},
+    {
+		"title": "Accessibilité",
+		"icon": "faAccessibleIcon",
+        "description": "Je conçois des interfaces inclusives, accessibles à tous les utilisateurs, quels que soient leurs handicaps."
+	}
+]
