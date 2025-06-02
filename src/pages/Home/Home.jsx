@@ -4,6 +4,7 @@ import Form from '../../Components/Form'
 import Footer from '../../Components/Footer'
 import Scroll from '../../Components/Scroll'
 import Skill from '../../Components/Skill-icon'
+import Project from '../../Components/Project'
 import falconImg from '../../picture/falcon.png';
 import kasa from '../../picture/kasa.png';
 import Mon_vieux_grimoire from '../../picture/Mon_vieux_grimoire.png';
@@ -25,29 +26,7 @@ function Home() {
           </div>
           <div className='Projets-recent part-body'>
             <section id='projet'><h2  className='Part-title'>Projets récents</h2></section>
-            <div className='projet-body'>
-              <div className='projet'>
-                <img src={Mon_vieux_grimoire} className="projet-pic" alt="Falcon" />
-                <div className='projet-description'>
-                  <h3>Mon vieux grimoire</h3>
-                  <p>Site web de notation de livre. Les utilisateur.ices peuvent créent de nouvelles page
-                    quand ils sont connecter afin d'ajouter un nouveau livre et de mettre une note visible 
-                    par le public.
-                  </p>
-                  <a href='https://github.com/AlexSaumon' className='Button'>Git Hub </a>
-                </div>
-              </div>
-              <div className='projet'>
-                <img src={kasa} className="projet-pic" alt="Falcon" />
-                <div className='projet-description'>
-                  <h3>Kasa</h3>
-                  <p>Application web de location immobilière. Les utilisateur.ices peuvent consulter 
-                    les divers logement ouver à la location.
-                  </p>
-                  <a href='https://github.com/AlexSaumon' className='Button'>Git Hub </a>
-                </div>
-              </div>
-            </div>
+            <Project />
           </div>
           <div className='Service part-body'>
             <section id='service'><h2 className='Part-title'>Services</h2></section>

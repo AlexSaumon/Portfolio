@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Mon vieux grimoire",
+		"cover": "Mon_vieux_grimoire.png",
+        "description": "Site web de notation de livre. Les utilisateur.ices peuvent créent de nouvelles pagequand ils sont connecter afin d'ajouter un nouveau livre et de mettre une note visible par le public.",
+		"tags": [
+			"Batignolle",
+			"Montmartre"
+		],
+        "github": "https://github.com/AlexSaumon/P7-Dev-Web-livres",
+        "date": "02/05/2025"
+	},
+    {
+		"title": "Kasa",
+		"cover": "kasa.png",
+        "description": "Application web de location immobilière. Les utilisateur.ices peuvent consulter les divers logement ouver à la location.",
+		"tags": [
+			"Batignolle",
+			"Montmartre"
+		],
+        "github": "https://github.com/AlexSaumon/OC-Project6",
+        "date": "08/04/2025"
+	}
+]

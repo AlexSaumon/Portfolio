@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Route, Routes, Navigate } from 'react-router'
+import { BrowserRouter, Route, Routes} from 'react-router'
 import './index.css';
 import Home from './pages/Home/Home'
 import Projet from './pages/Projet/Projet'

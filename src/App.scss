@@ -209,6 +209,11 @@
     align-items: center;
 }
 
+.Introduction {
+    font-size: 26px;
+    line-height: 50px;
+  }
+
   .service-description{
     width: calc(90% - #{40px});
     justify-content: space-around;
@@ -240,4 +245,16 @@
     gap: unset;
     justify-content: space-between;
   }
+}
+
+.projet-description {
+  gap: unset;
+    p {
+      text-align: left;
+      font-size: 18px;
+    }
+    
+    a {
+      align-self: flex-end;
+    }
 }
