@@ -10,7 +10,7 @@ function Banner() {
           <img src={falconImg} className="Profile-pic" alt="Falcon" />
         </div>
         <div className='Banner-text'>
-            <h2 className='Job-name'>Développeuse web <br />Frontend & Backend </h2>
+            <h2 className='Job-name'>Développeur web <br />Frontend & Backend </h2>
             <div className='Button-container'>
                 <a href='https://github.com/AlexSaumon' className='Button'>Git Hub </a>
                 <a href={salmonCV} target="_blank" rel="noopener noreferrer"  className='Button'>CV </a>
