@@ -108,8 +108,9 @@
     font-weight: 500;
     flex-direction: column;
     justify-content: flex-start;
+    line-height: 25px; 
     p {
-      text-align: justify;
+      text-align: left;
       padding-top: 20px;
       padding-bottom: 30px;
     }
@@ -143,7 +144,7 @@
   .service-description{
     width: calc(90% - #{40px});
     justify-content: space-around;
-    height: 135px;
+    height: 150px;
       p {
         padding-top: unset;
       }
@@ -154,15 +155,9 @@
   height: fit-content;
 }
 
-.projet-description p {
-    font-size: 14px;
-}
 
   .description {
     width: calc(90% - #{80px});
-    p{
-      text-align: left;
-    }
   }
 
 }
@@ -170,7 +165,8 @@
  @media (max-width: 769px) {
   .introduction {
     font-size: 20px;
-    padding-right: 30px;
+    padding-right: 40px;
+    line-height: 40px;
   }
 
   .projet {

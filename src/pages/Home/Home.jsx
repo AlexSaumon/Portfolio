@@ -15,7 +15,7 @@ function Home() {
         <div className='description part-body'>
           <div className='introduction-container'>
             <p className='introduction'>
-              Je conçois et réalise des sites web en fonctions de vos besoins et en vous accompagnant pour vous aidez à réaliser vos projets.
+              Je conçois et réalise des sites web en fonction de vos besoins, en vous accompagnant pour vous aider à concrétiser vos projets.
             </p>
           </div>
           <div className='profile-pic-big-container'>
