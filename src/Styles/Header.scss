@@ -94,3 +94,23 @@ body {
     height: 40px; 
   }
 }
+
+@media (max-width: 375px) {
+  .header {
+    flex-direction: column;
+    padding: unset;
+    .Title {
+    width: 100%;
+  }
+    nav{
+      margin-right: unset;
+      justify-content: center;
+      a {
+    font-size: unset;
+}
+    } 
+h1 {
+  font-size: 18px;
+}
+  }
+}

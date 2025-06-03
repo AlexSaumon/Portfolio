@@ -10,7 +10,7 @@ import OCImg from '../picture/20640b174.png';
 
 function Skill() {
     return (
-      <div>
+      <div className='skill-section'>
         <h3 className='sub-part-title'>Front End</h3>
                     <div className='skills'>
                       <div className='skill-container'>

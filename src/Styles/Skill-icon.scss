@@ -107,3 +107,25 @@ margin-top: 40px;
   max-width: 90%;
 }
 }
+@media (max-width: 375px) {
+
+  .skill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    }
+  .skills {
+    flex-direction: column;
+  }
+  .courses {
+    flex-direction: column;
+    height: auto;
+    width: calc(90% - #{40px});
+    clip-path: none;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px; // spacing between icon and description
+  }
+}
